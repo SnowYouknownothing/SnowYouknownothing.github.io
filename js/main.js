@@ -1,8 +1,8 @@
 /**
- * Main js for hexo-theme-Annie.
  *
- * @Author   Sariay
- * @DateTime 2019-08-26
+ *
+ * @Author   snow
+ * 
  */
 jQuery(document).ready(function($) {
 

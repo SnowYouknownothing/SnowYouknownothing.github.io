@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <title>
     
-      Hello World | snow
+       | snow
     
   </title>
   <meta name="author" content="snow">
@@ -160,7 +160,7 @@
 	<!-- Page title -->
 	<p>
 		
-			当前文章&nbsp;:&nbsp;《Hello World》
+			当前文章&nbsp;:&nbsp;《》
 		
 	</p>
 
@@ -277,10 +277,6 @@
 	<div class="article-title">
 		<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
 		
-	<a href="/2019/06/01/hello-world/" itemprop="url">
-		Hello World
-	</a>
-
 	</div>
 
 	<div class="article-meta">
@@ -291,8 +287,8 @@
 
 	发布于
 
-	<a href="/2019/06/01/hello-world/" itemprop="url">
-		<time datetime="2019-06-01T04:00:50.782Z" itemprop="datePublished">
+	<a href="/2019/06/01/day17正则作业/" itemprop="url">
+		<time datetime="2019-06-01T09:48:48.477Z" itemprop="datePublished">
 	  		2019-06-01
 	  </time>
 	</a>
@@ -309,8 +305,8 @@
 
 	更新于
 
-	<a href="/2019/06/01/hello-world/" itemprop="url">
-		<time datetime="2019-06-01T04:00:50.782Z" itemprop="dateUpdated">
+	<a href="/2019/06/01/day17正则作业/" itemprop="url">
+		<time datetime="2019-06-01T09:48:48.477Z" itemprop="dateUpdated">
 	  		2019-06-01
 	  </time>
 	</a> 
@@ -330,19 +326,30 @@
 	</div>
 
 	<div class="article-content" id="article-content">
-		<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+		<hr>
+<h2 id="title-正则作业"><a href="#title-正则作业" class="headerlink" title="title:正则作业"></a>title:正则作业</h2><ol start="2">
+<li><ol>
+<li>写一个正则表达式判断一个字符串是否是ip地址<br>规则：一个ip地址由4个数字组成，每个数字之间用.连接。每个数字的大小是0-255<br>255.189.10.37   正确<br>256.189.89.9    错误      </li>
+</ol>
+</li>
+<li><p>计算一个字符串中所有的数字的和<br>例如：字符串是：‘hello90abc 78sjh12.5’ 结果是90+78+12.5 = 180.5 </p>
+</li>
+<li><p>验证输入的内容只能是汉字</p>
+</li>
+<li><p>电话号码的验证 </p>
+</li>
+</ol>
+<p>二、不定项选择题    </p>
+<ol>
+<li><p>能够完全匹配字符串“(010)-62661617”和字符串“01062661617”的正则表达式包括（ abd  ）  </p>
+<p>A. “(?\d{3})?-?\d{8}”<br>B. “[0-9()-]+”<br>C. “[0-9(-)]<em>\d</em>”      
+D. “[(]?\d*[)-]<em>\d</em>”</p>
+<p>2.能够完全匹配字符串“c:\rapidminer\lib\plugs”的正则表达式包括（ bc ）<br>A. “c:\rapidminer\lib\plugs”<br>B. “c:\rapidminer\lib\plugs”<br>C. “(?i)C:\RapidMiner\Lib\Plugs”   ?i:将后面的内容的大写变成小写<br>D. “(?s)C:\RapidMiner\Lib\Plugs”   ?s：单行匹配  </p>
+<p>3.能够完全匹配字符串“back”和“back-end”的正则表达式包括（ abcd ）<br>A. “\w{4}-\w{3}|\w{4}”<br>B. “\w{4}|\w{4}-\w{3}”<br>C. “\S+-\S+|\S+”<br>D. “\w<em>\b-\b\w</em>|\w*”  </p>
+<p>4.能够完全匹配字符串“go go”和“kitty kitty”，但不能完全匹配“go kitty”的正则表达式包括（ ）<br>A. “\b(\w+)\b\s+\1\b”<br>B. “\w{2,5}\s*\1”<br>C. “(\S+) \s+\1”<br>D. “(\S{2,5})\s{1,}\1”  </p>
+<p>5.能够在字符串中匹配“aab”，而不能匹配“aaab”和“aaaab”的正则表达式包括（  abc）<br>A. “a*?b”<br>B. “a{,2}b”<br>C. “aa??b”<br>D. “aaa??b” </p>
+</li>
+</ol>
 	
 	</div>
 	
@@ -361,10 +368,10 @@
 	<span>
 		<a href="javascript: window.scrollTo(0, 0);">返回顶部</a>
 		
-			<a href="/2019/06/01/day17正则作业/" title rel="prev">
-				&laquo;上一篇
-			</a>
 		
+			<a href="/2019/06/01/hello-world/" title="Hello World" rel="next">
+				下一篇&raquo;
+			</a>
 			
 	</span>
 
@@ -383,25 +390,22 @@
 			
 					<li>
 						<div class="relate-post-text">
-							<a class="relate-post-title" href="/2019/06/01/day17正则作业/" title>
-											
+							<a class="relate-post-title" href="/2019/06/01/hello-world/" title="Hello World">
+								Hello World			
 							</a>
 							<p class="relate-post-date">
 								<i class="fa fa-calendar"></i>
 								六月 1日, 2019				
 							</p>
 							<p class="relate-post-content">
-								
-title:正则作业
-
-写一个正则表达式判断一个字符串是否是ip地址规则：一个ip地址由4个数字组成，每个数字之间用.连接。每个数字的大小是0-255255.189.10.37   正确256.189.89.9    错误     ...
+								Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using ...
 							</p>
 						</div>
 
 						<div class="relate-post-cover">
-							<a href="/2019/06/01/day17正则作业/" title>				
+							<a href="/2019/06/01/hello-world/" title="Hello World">				
 								
-								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt>
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="Hello World">
 							</a>
 						</div>
 					</li>											
